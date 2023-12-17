@@ -1,0 +1,64 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('f.jpg'); /* Remplacez 'f.jpg' par le nom de votre image */
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0; /* Couleur de fond de secours */
+}
+
+.account-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.explanation {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #007BFF;
+}
